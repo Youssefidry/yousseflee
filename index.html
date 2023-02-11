@@ -22,7 +22,7 @@
         </div>
         <nav class="navbar">
             <ul>
-                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Projects</a></li>
@@ -32,10 +32,10 @@
         <div class="drop-menu">
 
             <div class="contact">
-                <i class="ri-moon-line" id="dark-mode-toggle"></i>
+                <i class="ri-moon-line" id="dark-mode"></i>
                 <a href="#">Contact Me</a>
             </div>
-            <i class="ri-menu-line"></i>
+            <i id="drop-menu" class="ri-menu-line"></i>
         </div>
 
     </header>
@@ -181,9 +181,9 @@
     </section>
           
     </main>
-<script src="js/switch-mode.js"></script>
+    <script src="js/switch-mode.js"></script>
     <script>
-        dropmenu = document.querySelector(".drop-menu");
+        dropmenu = document.querySelector("#drop-menu");
         dropmenu.onclick = function(){
             navbar = document.querySelector(".navbar");
             navbar.classList.toggle("active");
