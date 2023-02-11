@@ -1,0 +1,33 @@
+/* Dark mode styles */
+body.dark-mode {
+    background-color: var(--white-primary);
+    color: var(--bg-color);
+}
+.dark-mode .navbar a{
+    color: var(--bg-color);
+}
+.dark-mode .navbar.active {
+    height: 300px;
+    z-index: 1000;
+    background: var(--white-secondary);
+}
+.dark-mode .drop-menu i{
+    color: var(--bg-color);
+}
+.dark-mode .contact i{
+    color: var(--bg-color);
+}
+.dark-mode .contact a{
+    color: var(--bg-color);
+}
+.dark-mode h1{
+    color: var(--bg-color);
+}
+.dark-mode p {
+    color: var(--bg-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+.dark-mode .left-side .social-media i{
+    color: var(--bg-color);
+}
