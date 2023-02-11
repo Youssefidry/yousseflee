@@ -31,3 +31,23 @@ body.dark-mode {
 .dark-mode .left-side .social-media i{
     color: var(--bg-color);
 }
+.dark-mode #services {
+    background: var(--bg-color);
+    width: 100%;
+}
+.dark-mode #experience {
+    background: var(--bg-color);
+    color: var(--white-primary);
+}
+.dark-mode #experience h1{
+    color: var(--white-primary);
+}
+.dark-mode #experience a{
+    color: var(--white-primary);
+}
+.dark-mode #experience a:hover{
+    color: #7E74F1;
+}
+.dark-mode #experience p{
+    color: #656D72;
+}
