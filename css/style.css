@@ -247,6 +247,20 @@ i.ri-menu-line {
     .skills-content .card-skill {
         width: 100% !important;
     }
+    .conatainer-contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .conatainer-contact {
+        width: 95% !important;
+    }
+    .contact-form {
+        width: 100% !important;
+    }
+    .contact-info {
+        width: 100% !important;
+
+    }
 }
 
 
